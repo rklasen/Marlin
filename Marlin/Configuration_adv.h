@@ -3171,8 +3171,9 @@
  * Startup commands
  *
  * Execute certain G-code commands immediately after power-on.
+ * M420 S loads mesh data and enables Mesh Bed Leveling
  */
-//#define STARTUP_COMMANDS "M17 Z"
+#define STARTUP_COMMANDS "M420 S"
 
 /**
  * G-code Macros
